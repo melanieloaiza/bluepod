@@ -1,0 +1,30 @@
+##  breakdown of the functions each with a brief interpretation of its purpose: 
+
+PDF Text Extraction (get_pdf_text):
+Purpose: Extracts text from PDF documents.
+Methodology: Iterates through each PDF document and each page within, using PdfReader to extract text.
+  
+Text Chunking (get_text_chunks):
+Purpose: Splits extracted text into manageable chunks.
+Methodology: Uses CharacterTextSplitter to split text based on character count, managing overlap to ensure continuity in data.
+
+Vector Store Creation (get_vectorstore):
+Purpose: Converts text chunks into a vector space model.
+Methodology: Utilizes OpenAIEmbeddings for embedding text and FAISS to create a vector store from these embeddings, facilitating efficient similarity searches.
+                                      
+Conversation Chain Setup (get_conversation_chain):
+Purpose: Establishes a conversation chain for AI-based text interaction.
+Methodology: Configures a ConversationalRetrievalChain using the previously created vector store, an instance of ChatOpenAI, and a memory buffer to manage dialogue context.
+                                   
+Recursive Text Splitting (split_text):
+Purpose: Splits large text into smaller sections recursively for detailed analysis.
+Methodology: Uses RecursiveCharacterTextSplitter for deep text division, suitable for complex documents.
+                                                
+Load Large Language Model (load_LLM):
+Purpose: Loads a pre-trained language model.
+Methodology: Instantiates a ChatOpenAI model with specific parameters (like temperature and API key), ready for generating responses or performing tasks.
+                                                
+Interactive Web Application Setup:
+Purpose: Provides a user interface to upload PDFs and request tasks like resume analysis or cover letter generation.
+Methodology: Uses streamlit to create an interactive web app where users can upload files and receive AI-generated text based on the content of the PDFs.
+                                                
