@@ -4,6 +4,8 @@
 
 Step into the future with Blue, a delightful blend of prehistoric wisdom and modern technology. Once a simple sauropod enjoying the prehistoric wilderness, Blue has evolved into a sophisticated digital assistant, adept at navigating the vast terrains of information in the digital age. 
 
+Please note you should get an OpenAI API key : https://platform.openai.com/
+
 #### Capabilities and Features:
 1. PaperMiner for Scientific Exploration: Harness Blue's ability to fetch and organize academic resources. With just a keyword          or title, Blue can retrieve the latest scientific papers from PubMed, organize them neatly, and even prepare them for                download, making research seamless and efficient.
 
