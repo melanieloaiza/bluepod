@@ -1,0 +1,21 @@
+##  breakdown of the functions each with a brief interpretation of its purpose: 
+
+load_LLM(openai_api_key)
+Purpose: Loads and configures a Large Language Model (LLM) using the ChatOpenAI API with specified parameters such as temperature, API key, and token limits.
+Returns: An instance of ChatOpenAI configured with the specified parameters.
+  
+split_text(split_information)
+Purpose: Splits a block of text into multiple smaller documents using a RecursiveCharacterTextSplitter, which can handle complex nested structures or long documents.
+Returns: A list of document chunks created from the input text.
+
+search(query)
+Purpose: Performs a search on the PubMed database for articles matching a specific query.
+Returns: Search results including article IDs from PubMed, using the Entrez programming utilities.
+
+fetch_details(id_list)
+Purpose: Fetches detailed information for a list of PubMed IDs.
+Returns: Detailed article data retrieved in XML format, parsed and ready to be processed.
+map_prompt_template & combine_prompt_template
+Purpose: These templates define the structure for generating prompts used in a map-reduce summarization chain. They are used to instruct the AI on how to process and combine information from multiple documents.
+map_prompt_template focuses on individual document processing.
+combine_prompt_template is used to synthesize information from multiple documents into a cohesive summary.
