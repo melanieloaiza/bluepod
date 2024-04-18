@@ -39,7 +39,16 @@ pip install langchain
 <img width="566" alt="Screenshot 2024-04-17 at 8 25 45 PM" src="https://github.com/melanieloaiza/bluepod/assets/72766590/d8b82e02-744b-48cf-898d-d2ca69702fcf">
 
 ### Deployment
-Make sure you install the requirement.txt 
+Python 3.11.5 
+
+Install all required packages using: 
+```
+pip install -r requirements.txt
+```
+Run app.py 
+```
+streamlit run app.py
+```
 
 ### Built With
 - [Streamlit](https://streamlit.io) -  A framework for rapidly developing and deploying interactive web applications that handle data retrieval and user interactions. 
