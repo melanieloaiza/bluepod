@@ -1,0 +1,25 @@
+##  breakdown of the functions each with a brief interpretation of its purpose: 
+
+load_LLM(openai_api_key):
+Purpose: Initializes and returns an instance of ChatOpenAI configured with specific parameters such as API key and model settings.
+Usage: Loads a large language model (GPT-4) for text generation or processing tasks.
+
+pull_from_website(url):
+Purpose: Fetches content from a specified URL and converts it into plain text using Beautiful Soup for HTML parsing and markdownify for conversion to Markdown.
+Usage: Retrieves and processes website content for text analysis or display.
+
+get_video_transcripts(url):
+Purpose: Downloads and extracts video transcripts from a given YouTube URL using YoutubeLoader.
+Usage: Retrieves detailed transcripts from YouTube videos which can be used for content analysis or summarization.
+
+split_text(user_information):
+Purpose: Splits a large text into smaller segments based on a specified character count, managing overlaps to ensure continuity.
+Usage: Prepares text for processing in applications that require manageable chunks of data, such as text summarization or analysis.
+
+parse_urls(urls_string):
+Purpose: Splits a string containing multiple URLs into a list of individual URLs.
+Usage: Helps in processing multiple URLs for batch operations, such as downloading or content extraction.
+
+get_content_from_urls(urls, content_extractor):
+Purpose: Applies a content extraction function to each URL in a list and combines the results.
+Usage: Facilitates the batch processing of multiple URLs to extract and consolidate content.
