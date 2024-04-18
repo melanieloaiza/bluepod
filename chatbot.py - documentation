@@ -1,0 +1,26 @@
+##  breakdown of the functions each with a brief interpretation of its purpose:
+
+et_pdf_text(pdf_docs)
+Purpose: Extracts text from a list of PDF documents.
+How it works: Iterates through each PDF document and each page within the document, using PdfReader to extract text from the pages and concatenate it into a single string.
+Returns: A string containing all text extracted from the PDF documents.
+
+get_text_chunks(text)
+Purpose: Splits a large text string into manageable chunks.
+How it works: Uses CharacterTextSplitter to divide the text into chunks based on a specified character count, ensuring that overlaps exist between chunks to preserve context.
+Returns: A list of text chunks.
+  
+get_vectorstore(text_chunks)
+Purpose: Generates a vector store from text chunks using embeddings.
+How it works: Utilizes OpenAIEmbeddings to convert text chunks into vector embeddings, which are then organized into a FAISS vector store for efficient similarity searches.
+Returns: A FAISS vector store containing the embeddings of the text chunks.
+get_conversation_chain(vectorstore)
+
+Purpose: Creates a conversational retrieval chain that can use a vector store to fetch relevant responses based on input queries.
+How it works: Initializes a ChatOpenAI model, sets up a memory buffer for storing chat history, and combines these with the vector store to create a conversational retrieval chain.
+Returns: A conversational retrieval chain configured with the specified LLM, vector store, and memory settings.
+handle_userinput(user_question)
+  
+Purpose: Manages the processing of a user's question and the display of the response.
+How it works: Submits the user’s question to the conversation state, retrieves the chat history, and alternately displays messages from the user and responses from the bot using the provided templates.
+Uses: This function directly updates the Streamlit interface with the conversation history.
