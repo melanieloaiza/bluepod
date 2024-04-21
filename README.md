@@ -4,8 +4,6 @@
 
 Step into the future with Blue, a delightful blend of prehistoric wisdom and modern technology. Once a simple sauropod enjoying the prehistoric wilderness, Blue has evolved into a sophisticated digital assistant, adept at navigating the vast terrains of information in the digital age. 
 
-Please note you should get an OpenAI API key : https://platform.openai.com/
-
 #### Capabilities and Features:
 1. PaperMiner for Scientific Exploration: Harness Blue's ability to fetch and organize academic resources. With just a keyword          or title, Blue can retrieve the latest scientific papers from PubMed, organize them neatly, and even prepare them for                download, making research seamless and efficient.
 
@@ -18,7 +16,11 @@ Please note you should get an OpenAI API key : https://platform.openai.com/
 5. YouTube: Beyond the Play Button: Discover the potential of dynamic prompt generation with GPT-4 for tasks such as video summarization, sentiment analysis, and content recommendations, ensuring that every interaction is as informative and relevant as possible.
 
 ## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. 
+ 1. Get an OpenAI API key : https://platform.openai.com/
+ 2. Set up the coding environment
+ 3. Build the app
+ 4. Deploy the app 
 
 ### Prerequisites
 Before you begin installing these libraries, ensure you have Python installed on your system. It’s also good practice to use a virtual environment for Python projects to manage dependencies without conflicts. 
@@ -51,6 +53,13 @@ Run app.py
 ```
 streamlit run app.py
 ```
+
+### Try it! 
+Here is what it should look like: 
+
+
+
+
 
 ### Built With
 - [Streamlit](https://streamlit.io) -  A framework for rapidly developing and deploying interactive web applications that handle data retrieval and user interactions. 
