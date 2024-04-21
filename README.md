@@ -57,9 +57,27 @@ streamlit run app.py
 ### Try it! 
 Here is what it should look like: 
 
+<img width="500" alt="image1" src="https://github.com/melanieloaiza/bluepod/assets/72766590/a63360b2-81a8-42eb-a060-15ecd2756ba5">
 
 
+PaperMiner:  
 
+<img width="500" alt="paperminer" src="https://github.com/melanieloaiza/bluepod/assets/72766590/3fd7ee18-e77c-4ca4-a829-0875d1aed1a7">
+
+
+CareerPath Insights:  
+
+<img width="500" alt="careerPath" src="https://github.com/melanieloaiza/bluepod/assets/72766590/5e2a8909-9127-43ff-9b25-af0f976a2374">
+
+
+Chatbot: 
+
+<img width="500" alt="chatbot" src="https://github.com/melanieloaiza/bluepod/assets/72766590/da27636b-7674-4efd-bac2-6002effe30e2">
+
+
+Videos:
+
+<img width="500" alt="videos" src="https://github.com/melanieloaiza/bluepod/assets/72766590/79c9f233-20c6-4f7e-be58-c2fd8b2db67f">
 
 ### Built With
 - [Streamlit](https://streamlit.io) -  A framework for rapidly developing and deploying interactive web applications that handle data retrieval and user interactions. 
