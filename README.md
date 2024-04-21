@@ -1,4 +1,4 @@
-# bluepod
+# bluepod 🦕
 ##### Meet Blue, the Wise Sauropod: Your Smart, Tech-Savvy Assistant 
 ###### powered by LangChain 🦜🔗 and GPT-4 🚀
 
@@ -14,6 +14,8 @@ Step into the future with Blue, a delightful blend of prehistoric wisdom and mod
 4. Text Talk: PDF Edition: Interact with your PDFs on a whole new level. Ask Blue questions in natural language, and get precise answers pulled directly from your documents, using Conversational AI.
 
 5. YouTube: Beyond the Play Button: Discover the potential of dynamic prompt generation with GPT-4 for tasks such as video summarization, sentiment analysis, and content recommendations, ensuring that every interaction is as informative and relevant as possible.
+
+   ##### Please refer to the documentation details provided in the main directory for descriptions of the functions used and their respective features (e.g., readmefile - documentation). 
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. 
