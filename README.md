@@ -1,10 +1,10 @@
-# bluepod 🦕
+# bluePod 🦕
 ##### Meet Blue, the Wise Sauropod: Your Smart, Tech-Savvy Assistant 
 ###### powered by LangChain 🦜🔗 and GPT-4 🚀
 
-Step into the future with Blue, a delightful blend of prehistoric wisdom and modern technology. Once a simple sauropod enjoying the prehistoric wilderness, Blue has evolved into a sophisticated digital assistant, adept at navigating the vast terrains of information in the digital age. 
+Step into the future with bluePod, a delightful blend of prehistoric wisdom and modern technology. Once a simple sauropod enjoying the prehistoric wilderness, bluePod has evolved into a sophisticated digital assistant, adept at navigating the vast terrains of information in the digital age. 
 
-#### Capabilities and Features:
+### Capabilities and Features:
 1. PaperMiner for Scientific Exploration: Harness Blue's ability to fetch and organize academic resources. With just a keyword          or title, Blue can retrieve the latest scientific papers from PubMed, organize them neatly, and even prepare them for                download, making research seamless and efficient.
 
 2. RAG (Retrieval-Augmented Generation) with a Twist: Utilizing the advanced capabilities of ChatGPT, Blue can generate comprehensive README files for specific PubMed IDs, transforming complex information into easy-to-digest summaries.
@@ -86,7 +86,7 @@ Videos:
 - [Langchain](https://www.langchain.com) -  A framework for integrating advanced NLP capabilities, utilizing large language models for tasks like conversational AI and text summarization.
 - [ChatGPT-4](https://openai.com/gpt-4)  -  An advanced language model designed for generating human-like text, suitable for various applications including chatbots and content generation.
 
-### Authors
+### Author
 Melanie R Loaiza 
 
 ### License
