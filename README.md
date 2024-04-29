@@ -5,15 +5,13 @@
 Step into the future with bluePod, a delightful blend of prehistoric wisdom and modern technology. Once a simple sauropod enjoying the prehistoric wilderness, bluePod has evolved into a sophisticated digital assistant, adept at navigating the vast terrains of information in the digital age. 
 
 ### Capabilities and Features:
-1. PaperMiner for Scientific Exploration: Harness Blue's ability to fetch and organize academic resources. With just a keyword          or title, Blue can retrieve the latest scientific papers from PubMed, organize them neatly, and even prepare them for                download, making research seamless and efficient.
+1. PaperMiner for Scientific Exploration: Harness Blue's ability to fetch and organize academic resources. With just a keyword          or title, Blue can retrieve the latest scientific papers from PubMed, organize them neatly, and even prepare them for                download, making research seamless and efficient. Utilizing the advanced capabilities of ChatGPT, Blue can generate comprehensive    README files for specific PubMed IDs, transforming complex information into easy-to-digest summaries.
 
-2. RAG (Retrieval-Augmented Generation) with a Twist: Utilizing the advanced capabilities of ChatGPT, Blue can generate comprehensive README files for specific PubMed IDs, transforming complex information into easy-to-digest summaries.
+2. DinoDrafts for Career Development: Through the power of Natural Language Processing (NLP), Blue provides insightful analyses of resumes, crafts personalized cover letters, and offers career advice tailored to your specific needs, helping you navigate your career path with confidence.
 
-3. DinoDrafts for Career Development: Through the power of Natural Language Processing (NLP), Blue provides insightful analyses of resumes, crafts personalized cover letters, and offers career advice tailored to your specific needs, helping you navigate your career path with confidence.
+3. Text Talk: PDF Edition: Interact with your PDFs on a whole new level. Ask Blue questions in natural language, and get precise answers pulled directly from your documents, using Conversational AI.
 
-4. Text Talk: PDF Edition: Interact with your PDFs on a whole new level. Ask Blue questions in natural language, and get precise answers pulled directly from your documents, using Conversational AI.
-
-5. YouTube: Beyond the Play Button: Discover the potential of dynamic prompt generation with GPT-4 for tasks such as video summarization, sentiment analysis, and content recommendations, ensuring that every interaction is as informative and relevant as possible.
+4. YouTube: Beyond the Play Button: Discover the potential of dynamic prompt generation with GPT-4 for tasks such as video summarization, sentiment analysis, and content recommendations, ensuring that every interaction is as informative and relevant as possible.
 
    ##### Please refer to the documentation details provided in the main directory for descriptions of the functions used and their respective features (e.g., readmefile - documentation). 
 
