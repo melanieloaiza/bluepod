@@ -19,7 +19,7 @@ Step into the future with bluePod, a delightful blend of prehistoric wisdom and 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. 
  1. Get an OpenAI API key : https://platform.openai.com/
  2. Set up the coding environment
- 3. Build the app
+ 3. Build the app - Streamlit
  4. Deploy the app 
 
 ### Prerequisites
